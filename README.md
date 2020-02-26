@@ -7,4 +7,5 @@ Working
 ---
 TODO
 
+[ ] don't show file starts with "."
 [ ] configure alias
