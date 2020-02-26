@@ -2,5 +2,5 @@
 # sudo dhclient wlp2s0
 
 # systemctl start NetworkManager
-nmtui
+exec st -e nmtui
 
