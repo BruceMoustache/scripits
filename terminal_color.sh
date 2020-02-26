@@ -1,0 +1,2 @@
+wal --theme sexy-tlh
+
