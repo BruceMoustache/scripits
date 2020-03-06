@@ -34,12 +34,6 @@ indexs_to_run = int_list(input(
 	.split())
 
 for index in indexs_to_run:
-	os.system(f'sh {scripts[index]}')
-
-""" default run
-sh touchpad.sh
-sh keyboard.sh
-sh xflux.sh
-sh set-background.sh
-"""
+	os.system(f'sh {scripts[index]} &')
+input()
 
